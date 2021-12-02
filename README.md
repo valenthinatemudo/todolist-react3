@@ -1,23 +1,21 @@
-1- create react-app
+# Projeto-ReactIII 🤩
 
-2- Components
-    2.1 Header
-        2.1.1 - jsx
-        2.1.2 - test
-        2.1.3 - css
-    
-    2.2 List
-        2.2.1 - jsx
-        2.2.2 - test
-        2.2.3 - css
+### Sobre o projeto
+Esse é meu terceiro projeto com react, feito pelo bootcamp da Reprograma - On13TodasEmTech Front-end!
+Nesse projeto, foi utilizado testes unitários com React Testing Library.
 
-3- assets
-    3.1 - logo.svg
+### Como foi feito:
 
-4- App.js
-    4.1 - Apagou todas as informações do exemplo anterior
-    4.2 - Importou e usou o Header
-    
-5- Excluir o arquivo App.test.js do exemplo anterior
+1. Inicei um projeto react;
+2. Criei o component Header (html, css e tests);
+3. Criei o component List com a função de add uma tarefa (html, css e tests);
+4. Criei e testei as funções de completar uma tarefa;
+5. Criei e testei as funções de deletar uma tarefa;
+6. Inclui um Menu e um Footer;
+7. Inclui uma página sobre mim;
+8. Criei rotas.
 
-6- No terminal instalar o yarn add react-icons
+
+Caso queira da uma olhada no código e rodar na sua máquina é só forkar o projeto :)
+
+Desenvolvido por Valenthina Temudo | Exercício para a {reprograma}
