@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&display=swap');
+
+.div-autora{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.div-autora{
+    background: linear-gradient(to right, #d1913c, #ffd194);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: #834A0D;
+    font-size: 32px;
+}
+
+.div-foto-paragrafo{
+    display: flex;
+    align-items: center;
+}
+
+.foto-autora{
+    width: 25%;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.paragrafo{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.link-github{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+    border: 2px solid #acb4bd;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+    margin: 25px auto;
+    padding: 15px;
+    width: 100px;
+}
+
+.link-github:hover {
+    background-color: transparent;
+}
+
+.skills-titulo{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #fff;
+    color: #834A0D;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.descricao{
+    margin-left: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
+
+.front-end{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid #fff;
+}
+
+.skills-box {
+    flex: 1 1 33%;
+    max-width: 33%;
+    margin-bottom: 35px;
+}
+
+.skills-box i {
+    font-size: 45px;
+    margin-left: 10px;
+    padding: 20px;
+}

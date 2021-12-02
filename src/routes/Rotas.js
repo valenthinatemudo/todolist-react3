@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Home from '../pages/Home'
+import Autora from '../pages/Autora/Autora'
 import ListPage from '../pages/ListPage'
 
 function Rotas () {
     return (
         <BrowserRouter>
         <Switch>
-            <Route exact path='/' component={Home}/>
+            <Route exact path='/' component={Autora}/>
             <Route path='/lista' component={ListPage}/>
         </Switch>
         
